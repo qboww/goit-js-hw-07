@@ -108,3 +108,27 @@ input[type="number"]::-webkit-outer-spin-button {
 
   width: 100%;
 }
+
+@media (max-width: 450px) {
+  .button-destroy,
+  .button-create {
+    padding: 4px;
+  }
+
+
+  #controls{
+    gap: 8px;
+  }
+}
+
+@media (max-width: 375px) {
+  .button-destroy,
+  .button-create {
+    padding: 4px;
+  }
+
+
+  #controls{
+    gap: 4px;
+  }
+}
