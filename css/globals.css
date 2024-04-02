@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+  background-color: #323232;
+}
+
+.page-link {
+  text-decoration: none;
+  color: white;
+}
+
+.go-back {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.go-back-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 24px;
+}
+
+.page-link-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 24px;
+}
+
+li {
+  list-style: none;
+}
